@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari's Portfolio</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+            color:#333;
+        }
+
+        header{
+            background:#0f172a;
+            color:white;
+            text-align:center;
+            padding:50px 20px;
+        }
+
+        header h1{
+            font-size:3rem;
+        }
+
+        header p{
+            margin-top:10px;
+            font-size:1.2rem;
+        }
+
+        nav{
+            background:#1e293b;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        section{
+            padding:50px 10%;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            margin:20px 0;
+            border-radius:10px;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .skills{
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+        }
+
+        .skill{
+            background:#2563eb;
+            color:white;
+            padding:10px 15px;
+            border-radius:20px;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background:#0f172a;
+            color:white;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#2563eb;
+            color:white;
+            padding:12px 20px;
+            text-decoration:none;
+            border-radius:5px;
+            margin-top:15px;
+        }
+
+        .btn:hover{
+            background:#1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hari</h1>
+    <p>Engineering Student | Aspiring Cybersecurity Professional</p>
+    <a href="#contact" class="btn">Contact Me</a>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Hari, an engineering student interested in
+            cybersecurity, networking, Linux, and software development.
+            I enjoy learning new technologies and building practical projects.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="card">
+        <h2>Skills</h2>
+
+        <div class="skills">
+            <div class="skill">Linux</div>
+            <div class="skill">Fedora</div>
+            <div class="skill">Git</div>
+            <div class="skill">GitHub</div>
+            <div class="skill">Networking</div>
+            <div class="skill">Python</div>
+            <div class="skill">HTML</div>
+            <div class="skill">Cybersecurity</div>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="card">
+        <h2>Projects</h2>
+
+        <h3>Network Monitoring Tool</h3>
+        <p>Built a basic network monitoring tool using Python.</p>
+
+        <br>
+
+        <h3>Cybersecurity Lab Setup</h3>
+        <p>Created a virtual lab environment for learning cybersecurity concepts.</p>
+
+        <br>
+
+        <h3>Personal Portfolio Website</h3>
+        <p>Designed and developed a responsive portfolio website.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>Contact</h2>
+
+        <p>Email: your-email@example.com</p>
+        <p>GitHub: github.com/yourusername</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Hari. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
